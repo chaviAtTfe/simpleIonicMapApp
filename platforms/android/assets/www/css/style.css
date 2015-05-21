@@ -3,3 +3,15 @@
   height: 100%;
   width: 100%;
 }
+.scroll {
+  height: 100%;
+}
+.labels {
+  color: black;
+
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 80px;
+  white-space: nowrap;
+}
