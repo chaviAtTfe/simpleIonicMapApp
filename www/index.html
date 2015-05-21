@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://maps.googleapis.com/ https://maps.gstatic.com/ https://mts0.googleapis.com/ https://mts1.googleapis.com/ 'unsafe-inline' 'unsafe-eval'">
     <title></title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- google maps -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&sensor=false"></script>
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -26,7 +30,5 @@
         <div id="map" class="map" data-tap-disabled="true"></div>
       </ion-content>
     </ion-pane>
-    <!-- google maps -->
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?&sensor=false"></script>
   </body>
 </html>
